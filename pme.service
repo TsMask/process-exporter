@@ -1,0 +1,9 @@
+[Unit]
+Description=Process metrics exporter
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/process-exporter -addr :9002 -names nginx
+
+[Install]
+WantedBy=multi-user.target

@@ -966,8 +966,8 @@
   },
   "timepicker": {},
   "timezone": "",
-  "title": "Self Process Exporter",
-  "uid": "self-process-exporter-v1",
+  "title": "Process Exporter (All)",
+  "uid": "go-process-exporter-v1",
   "version": 5,
   "weekStart": ""
 }

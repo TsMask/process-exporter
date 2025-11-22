@@ -43,3 +43,13 @@ systemctl daemon-reload
 sudo systemctl status pme
 sudo systemctl restart pme
 ```
+
+##  Grafana Dashboard JSON 文件
+
+使用方法
+
+1. 将下面的 JSON 代码复制并保存为 process-dashboard.json。
+2. 在 Grafana 中点击左侧 Dashboards -> New -> Import。
+3. 上传该文件或将内容粘贴到文本框中。
+
+重要：在 Import 界面，选择你的 Prometheus 数据源。
